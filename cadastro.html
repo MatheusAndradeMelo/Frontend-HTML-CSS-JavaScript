@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+    
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+                  <div class="box-login">
+                    <div class="logo">
+                        <img src="./img/favicon-32x32.png" alt="Logo Amigos da Pata">
+                        <h1>Cadastro</h1>
+                    </div>
+                    <div class="grupo">
+                        <label for="email">E-mail</label> <br>
+                        <input id="email" type="email" placeholder="Inserir e-mail">
+                    </div>
+                    <div class="grupo">
+                        <label for="name">Nome</label> <br>
+                        <input id="name" type="name" placeholder="Inserir nome">
+                    </div>
+                    <div class="grupo">
+                        <label for="senha">Senha</label> <br>
+                        <input id="senha" type="password" placeholder="Inserir senha">
+                        <p class="msg" id="p01">Esses campos não podem ser diferentes</p>
+                    </div> 
+                    <div class="grupo">
+                        <label for="cfs">Confirme sua senha</label> <br>
+                        <input id="cfs" type="password" placeholder="Confirme sua senha">
+                        <p class="msg" id="p02">Esses campos não podem ser diferentes</p>
+                    </div>
+                    <div class="grupo">
+                        <button type="button" id="btn-entrar" onclick="fazerCadastro()">Cadastrar</button>
+                    </div>
+                    <p>Já é cadastrado?<a href="loginAmigosDaPata.html"> Efetuar login.</a></p>
+                </div>  
+            </div>
+        </div>
+    </div>
+<script src="loginAmigosDaPata.js"></script>
+</body>
+</html>

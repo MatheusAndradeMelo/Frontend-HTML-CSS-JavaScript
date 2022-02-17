@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+    color: #1e1e2a;
+    background-image: url(img/bg.jpg);
+}
+
+.favicon {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.glyphicon{
+    color: rgb(99, 99, 99);
+    margin-right: 1rem;
+}
+

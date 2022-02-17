@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #1e1e2a;
+    --cor-secundaria: rgb(148, 146, 145);
+}
+
+body {
+    font-family: Dosis, sans-serif;
+    background-image: url(img/bg2.jpg);
+}
+
+input{
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:100%;
+    padding:8px;
+    margin-top:4px;   
+}
+
+input.error {
+    outline: 1px solid red;
+    }
+
+.box-login{
+    width:300px;
+    border:1px solid rgb(148, 146, 145);
+    margin: auto;
+    margin-top: 7rem;
+    padding:25px;
+    border-radius:4px;
+    background-attachment: fixed;
+}
+
+.box-login p {
+    text-align: center;
+    font-size: large;
+}
+
+.box-login a {
+    margin-top: 1rem;
+}
+
+.logo{
+    text-align:center;
+    color:var(--cor-primaria);
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+.grupo {
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.grupo input:focus {
+    outline: none;
+    border:1px solid var(--cor-primaria);
+}
+
+.msg {
+    display: none;
+    font-size: small;
+    text-align: left;
+}
+
+.msg.error {
+    display: block;
+    font-size: small;
+    color: red;
+    text-align: left;
+}
+
+#btn-entrar {
+    background-color: var(--cor-primaria);
+    padding:10px;
+    width:100%;
+    border:0;
+    color:#fff;
+    font-size:18px;
+    border-radius:4px;
+    margin-top:20px;
+}
+
+#btn-entrar:hover{
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+    opacity: 0.7;
+}

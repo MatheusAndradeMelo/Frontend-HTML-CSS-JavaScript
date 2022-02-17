@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/00/84/55/66/360_F_84556601_W71hd1xmCxZUhsscyNlokY1an7Kqx6ZJ.jpg");
+    font-family: Dosis;
+}
+.btn{
+    padding: 10px 8px;
+    width: 50px;
+    color:white;
+    background-color: #333 ;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    box-shadow: #333;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(216, 216, 216);
+    transition: background 1s;
+}
+.botao{
+    outline: none;
+    color: white;
+    text-align: center;
+}
+.glyphicon{
+    color: rgb(99, 99, 99);
+    margin-right: 1rem;
+}
+
+h1.titulo{
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    border: 3px solid #333;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    border-radius: 60%;
+    background-color: rgb(201, 201, 201);
+    margin: 30px 40px 30px 40px ;
+    box-shadow: 5px 5px 10px  rgb(24, 24, 24);
+}
+.nometitulo{
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    text-shadow: 5px 5px 10px  rgb(44, 44, 44);
+    padding-bottom: 15px;
+}
+.favicon{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color:rgb(36, 36, 36);
+    border-radius: 5%;
+    border: 2px solid rgb(155, 155, 155);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 5px 5px 10px rgb(24, 24, 24);
+}
+.conhecerongs{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+p{
+    text-align:justify;
+    font-size: 25px;
+    background-color:rgb(201, 201, 201);
+    border-radius: 3%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+   
+}
+.ftadota{
+    border-top: 200px;
+    float:right;
+    width: auto;
+    border: 2px solid white; 
+    border-radius: 100%;
+}
+li.list-group-item {
+    color: rgb(48, 48, 48);
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    background: none;
+    list-style:none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: rgb(26, 26, 26);
+}
+li.fotolistcat{
+    float: left;
+    list-style: none;
+}
+li.fotolistdog{
+    float: right;
+    list-style: none;
+}
+.redes{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    list-style: none;
+    list-style: none;
+}
+img.rede{ 
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    transition: all 0.4s ease-out;
+}
+img.favicon{
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+#link-topo{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px rgb(31, 31, 31);
+}

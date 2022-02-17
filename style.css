@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+    color: #1e1e2a;
+    background-image: url(img/bg.jpg);
+}
+
+.favicon {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.img-circle {
+    margin-top: 3rem;
+}
+
+p {
+    font-size: large;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.col-md-4 a {
+    margin-top: 3rem;
+}
+.glyphicon{
+    color: rgb(99, 99, 99);
+    margin-right: 1rem;
+}
+#link-topo{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px rgb(31, 31, 31);
+}
